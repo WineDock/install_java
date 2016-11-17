@@ -1,6 +1,6 @@
 # Ansible Role: install JRE
 ##scope
-The scope of this Role is solely to install the JRE Server Package on your Server. It does enable you to choose the available Versions distributed by the JRE Project.
+The scope of this Role is solely to install the JRE Package on your Server. It does enable you to choose the between available Versions.
 
 ##distributions
 
