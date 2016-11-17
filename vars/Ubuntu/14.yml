@@ -1,0 +1,5 @@
+---
+java7repo: "# openjdk-7-jre-headless is part of the default repo"
+java8repo: "deb http://ppa.launchpad.net/openjdk-r/ppa/ubuntu trusty main"
+java9repo: "# Java 9 is not available for trusty"
+

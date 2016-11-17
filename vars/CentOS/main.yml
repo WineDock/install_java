@@ -1,0 +1,11 @@
+---
+# include major version dependant pkg names
+#- include_vars: "{{ ansible_distribution_major_version }}.yml"
+
+packages:
+# - java-1.6.0-openjdk-headless
+# - java-1.7.0-openjdk-headless
+# - java-1.8.0-openjdk-headless
+
+packages:
+  - java-1.{{ javaversion }}.0-openjdk-headless

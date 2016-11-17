@@ -1,0 +1,4 @@
+---
+java7repo: "# openjdk-7-jre-headless is part of the default repo"
+java8repo: "# Java 8 is not available for precise"
+java9repo: "# Java 9 is not available for precise"

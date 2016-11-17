@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  author: Wolfgang Wangerin
+  description: install JRE Package
+  company: Hawesko
+  license: MIT/BSD
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  - name: Debian
+    versions:
+    - squeeze
+    - wheezy
+    - jessie
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+    - xenial
+  galaxy_tags:
+    - Java
+    - installer
