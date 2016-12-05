@@ -9,3 +9,4 @@ packages:
 
 packages:
   - java-1.{{ javaversion }}.0-openjdk-headless
+  - dejavu-sans-fonts

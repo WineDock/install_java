@@ -1,4 +1,10 @@
 ---
+
+- name: add repo
+  template:
+    src: "repo.j2"
+    dest: "/etc/apt/sources.list.d/java.list"
+
 - name: Install the packages 
   apt: name={{ item }} state=present update_cache=yes
   with_items: "{{ packages }}"

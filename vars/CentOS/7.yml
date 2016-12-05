@@ -1,5 +1,8 @@
 ---
-java7repo: "# openjdk-7-jre-headless is part of the default repo"
-java8repo: "# openjdk-8-jre-headless is part of the default repo"
-java9repo: "# Java 9 is not available for CentOS 7"
+
+
+javarepo:
+ 7: "# openjdk-7-jre-headless is part of the default repo"
+ 8: "# openjdk-8-jre-headless is part of the default repo"
+ 9: "# Java 9 is not available for CentOS 7"
 

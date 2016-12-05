@@ -1,0 +1,7 @@
+#This File has been added with ansible 
+
+{% for k,v in javarepo.iteritems() %}
+{% if k|e==javaversion|e %}# 
+{{ v }}
+{% endif %}
+{% endfor %}

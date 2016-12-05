@@ -1,5 +1,9 @@
 ---
-java7repo: "# openjdk-7-jre-headless is part of the default repo"
-java8repo: "deb http://ftp.debian.org/debian jessie-backports main"
-java9repo: "# Java 9 is not available for jessie"
+#java7repo: "# openjdk-7-jre-headless is part of the default repo"
+#java8repo: "deb http://ftp.debian.org/debian jessie-backports main"
+#java9repo: "# Java 9 is not available for jessie"
 
+javarepo: 
+  7: "# openjdk-7-jre-headless is part of the default repo"
+  8: "deb http://ftp.debian.org/debian jessie-backports main"
+  9: "# Java 9 is not available for jessie"
